@@ -33,9 +33,9 @@ function criarListaAlunos() {
   
       // Exibe uma mensagem na tela
       if (aprovado) {
-        console.log(`Parabéns, ${aluno.nome}! Você foi aprovado no concurso.`);
+        alert(`Parabéns, ${aluno.nome}! Você foi aprovado no concurso.`);
       } else {
-        console.log(`Não foi dessa vez, ${aluno.nome}. Favor tentar novamente.`);
+        alert(`Não foi dessa vez, ${aluno.nome}. Favor tentar novamente.`);
       }
     }
   }
@@ -45,4 +45,3 @@ function criarListaAlunos() {
   
   // Calcula a média das notas dos alunos
   calcularMediaAlunos(alunos);
-  
